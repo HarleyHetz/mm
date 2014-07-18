@@ -1,0 +1,95 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1404990805437" ID="ID_1050103273" MODIFIED="1404990819073" TEXT="Data Scientist">
+<node CREATED="1405044024668" FOLDED="true" ID="ID_1205888880" MODIFIED="1405050104833" POSITION="right" TEXT="Week1">
+<node CREATED="1404991166162" FOLDED="true" ID="ID_1798586465" MODIFIED="1404991183987" TEXT="Tools">
+<node CREATED="1404990862257" FOLDED="true" ID="ID_1793316321" MODIFIED="1404991173062" TEXT="R Programming Language">
+<node CREATED="1404990886329" ID="ID_553405685" MODIFIED="1404990894722" TEXT="www.r-project.org"/>
+<node CREATED="1404990986326" ID="ID_500077977" MODIFIED="1404990993043" TEXT="R script">
+<node CREATED="1404990996677" ID="ID_7719551" MODIFIED="1404991013243" TEXT="Text file with code in it!"/>
+</node>
+<node CREATED="1404991024038" ID="ID_282428281" MODIFIED="1404991029813" TEXT="R Markdown document">
+<node CREATED="1404991039679" ID="ID_1906753008" MODIFIED="1404991043508" TEXT=".rmd file"/>
+</node>
+</node>
+<node CREATED="1404990904274" FOLDED="true" ID="ID_1594225564" MODIFIED="1404991174797" TEXT="R Studio">
+<node CREATED="1404990919780" ID="ID_574685883" MODIFIED="1404990925610" TEXT="www.rstudio.com"/>
+</node>
+<node CREATED="1404990979660" FOLDED="true" ID="ID_1758357385" MODIFIED="1404991176146" TEXT="Github and Git">
+<node CREATED="1404991094680" ID="ID_1843379349" MODIFIED="1404991101985" TEXT="Distributed version control"/>
+<node CREATED="1404991129980" ID="ID_1362878393" MODIFIED="1404991144251" TEXT="Commands run in &quot;the shell&quot;"/>
+</node>
+</node>
+<node CREATED="1404991194637" FOLDED="true" ID="ID_1626386662" MODIFIED="1405002099494" TEXT="Getting Help">
+<node CREATED="1404991241785" FOLDED="true" ID="ID_1750716973" MODIFIED="1404991934174" TEXT="Post question to message board">
+<node CREATED="1404991564394" FOLDED="true" ID="ID_427495599" MODIFIED="1404991699704" TEXT="How to ask an &quot;R&quot; related question:">
+<node CREATED="1404991575130" ID="ID_1099835757" MODIFIED="1404991584746" TEXT="What steps will reproduce the problem?"/>
+<node CREATED="1404991588859" ID="ID_1337351644" MODIFIED="1404991596138" TEXT="What is the expected output?"/>
+<node CREATED="1404991596851" ID="ID_180475327" MODIFIED="1404991603282" TEXT="What do you see instead?"/>
+<node CREATED="1404991603772" ID="ID_1174265244" MODIFIED="1404991628476" TEXT="What version of the product (e.g. R, packages, etc.) are you using?"/>
+<node CREATED="1404991629581" ID="ID_1641593398" MODIFIED="1404991637067" TEXT="What operating system?"/>
+</node>
+<node CREATED="1404991703551" FOLDED="true" ID="ID_365098280" MODIFIED="1404991802021" TEXT="How to ask a data analysis question">
+<node CREATED="1404991713664" ID="ID_1266489425" MODIFIED="1404991727463" TEXT="What is the question you are trying to answer?"/>
+<node CREATED="1404991732241" ID="ID_1214713252" MODIFIED="1404991766952" TEXT="What steps/tools did you use to answer it?"/>
+<node CREATED="1404991767169" ID="ID_1364731833" MODIFIED="1404991774446" TEXT="What did you expect to see?"/>
+<node CREATED="1404991774672" ID="ID_1243019455" MODIFIED="1404991779513" TEXT="What do you see instead??"/>
+<node CREATED="1404991780395" ID="ID_977167049" MODIFIED="1404991788313" TEXT="What other solutions have you thought about?"/>
+</node>
+</node>
+<node CREATED="1404991297815" ID="ID_1181406094" MODIFIED="1404991305438" TEXT="Look it up on google or stack.com"/>
+<node CREATED="1404991314704" FOLDED="true" ID="ID_533636664" MODIFIED="1404991418639" TEXT="Access help file example to get help for the function rnorm">
+<node CREATED="1404991334873" ID="ID_464853857" MODIFIED="1404991339145" TEXT="?rnorm"/>
+<node CREATED="1404991349209" ID="ID_625273583" MODIFIED="1404991360330" TEXT="help.search(&quot;rnorm&quot;)"/>
+<node CREATED="1404991377794" ID="ID_1152425617" MODIFIED="1404991395579" TEXT="args(&quot;rnorm&quot;) &quot;Get Arguments&quot;"/>
+</node>
+<node CREATED="1404991469671" ID="ID_922817663" MODIFIED="1404991478647" TEXT="Type the function name">
+<node CREATED="1404991482360" ID="ID_544269286" MODIFIED="1404991491407" TEXT="The entire function will appear for you"/>
+</node>
+<node CREATED="1404991514776" ID="ID_1190755318" MODIFIED="1404996310665" TEXT="http://cran.r-project.org/doc/contrib/Short-refcard.pdf"/>
+<node CREATED="1404992441616" FOLDED="true" ID="ID_1765517526" MODIFIED="1404995533881" TEXT="Where to look for help:">
+<node CREATED="1404992451891" FOLDED="true" ID="ID_1790234423" MODIFIED="1404995531953" TEXT="R Programming">
+<node CREATED="1404992462803" ID="ID_1618797852" LINK="http://bit.ly/Ufaadn" MODIFIED="1404995521715" TEXT="http://bit.ly/Ufaadn"/>
+<node CREATED="1404992476731" ID="ID_1565803719" MODIFIED="1404992497947" TEXT="Class forum archive"/>
+<node CREATED="1404992498164" ID="ID_929603983" MODIFIED="1404995524484" TEXT="Search web">
+<node CREATED="1404992576094" ID="ID_1617019574" MODIFIED="1404992598414" TEXT="Stackoverflow...use the tag [r] to narrow search"/>
+<node CREATED="1404992602928" ID="ID_1870476919" MODIFIED="1404992646615" TEXT="Google use &quot;[data type] data analysis&quot; or &quot;[data type] R package&quot;"/>
+<node CREATED="1404992653729" FOLDED="true" ID="ID_1468470475" MODIFIED="1404992770110" TEXT="Try to identify what data analysis is called for your data type">
+<node CREATED="1404992668322" ID="ID_104925997" MODIFIED="1404992675256" TEXT="Biostatistics for medical data"/>
+<node CREATED="1404992675522" ID="ID_1543591204" MODIFIED="1404992684848" TEXT="Data Science for data from web analytics"/>
+<node CREATED="1404992685082" ID="ID_529893794" MODIFIED="1404992697674" TEXT="Machine learning for data in computer science/computer vision"/>
+<node CREATED="1404992697931" ID="ID_1974124764" MODIFIED="1404992707049" TEXT="Natural language processing for data from texts"/>
+<node CREATED="1404992707283" ID="ID_151940277" MODIFIED="1404992719402" TEXT="Signal processing for data from electrical signals"/>
+<node CREATED="1404992719628" ID="ID_1396505511" MODIFIED="1404992727322" TEXT="Business analytics for data on customers"/>
+<node CREATED="1404992727685" ID="ID_825742304" MODIFIED="1404992733474" TEXT="Econometrics for economic data"/>
+<node CREATED="1404992733692" ID="ID_16419980" MODIFIED="1404992748316" TEXT="Statistical process control for data about industrial processes"/>
+</node>
+</node>
+<node CREATED="1404992507853" ID="ID_1786041548" MODIFIED="1404992520355" TEXT="Post to the R mailing list"/>
+</node>
+<node CREATED="1404992526940" FOLDED="true" ID="ID_358445320" MODIFIED="1404995530521" TEXT="Data Anaylsis/Statistics">
+<node CREATED="1404992545581" ID="ID_1536117606" MODIFIED="1404992551916" TEXT="Class forum archive"/>
+<node CREATED="1404992556732" ID="ID_906075469" MODIFIED="1404992560492" TEXT="Class forum"/>
+<node CREATED="1404992561222" ID="ID_741968466" MODIFIED="1404992566308" TEXT="Search web"/>
+</node>
+</node>
+<node CREATED="1404995431197" ID="ID_837305766" LINK="https://share.coursera.org/wiki/index.php/DataSciSpec:Useful_Resources" MODIFIED="1404995492403" TEXT="https://share.coursera.org/wiki/index.php/DataSciSpec:Useful_Resources"/>
+</node>
+<node CREATED="1405002112786" FOLDED="true" ID="ID_713386720" MODIFIED="1405044050094" TEXT="GitHub">
+<node CREATED="1405002120363" ID="ID_956586355" MODIFIED="1405002129738" TEXT="UserName HarleyHetz@yahoo.com"/>
+<node CREATED="1405002131580" ID="ID_1665760355" MODIFIED="1405002782618" TEXT="Password ILoveKat65"/>
+</node>
+<node CREATED="1405044055932" FOLDED="true" ID="ID_1899450661" MODIFIED="1405050100683" TEXT="R Programming">
+<node CREATED="1405045588720" ID="ID_390597816" MODIFIED="1405045594042" TEXT="Download R">
+<node CREATED="1405045600400" ID="ID_623633738" LINK="cran.r-project.org" MODIFIED="1405045615596" TEXT="cran.r-project.org"/>
+</node>
+<node CREATED="1405044063182" ID="ID_157318342" MODIFIED="1405044071214" TEXT="Create Working Folder">
+<node CREATED="1405044072962" ID="ID_1873365260" LINK="C:\Users\Jeff\Documents\RProjects" MODIFIED="1405044108150" TEXT="C:\Users\Jeff\Documents\RProjects"/>
+</node>
+<node CREATED="1405045625884" ID="ID_956436514" MODIFIED="1405045632896" TEXT="Download RStudio">
+<node CREATED="1405045660337" ID="ID_750304355" LINK="http://www.rstudio.com/" MODIFIED="1405045668644" TEXT="http://www.rstudio.com/"/>
+</node>
+</node>
+</node>
+</node>
+</map>
