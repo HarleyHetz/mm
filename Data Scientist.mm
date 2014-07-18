@@ -1,9 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1404990805437" ID="ID_1050103273" MODIFIED="1404990819073" TEXT="Data Scientist">
-<node CREATED="1405044024668" FOLDED="true" ID="ID_1205888880" MODIFIED="1405050104833" POSITION="right" TEXT="Week1">
-<node CREATED="1404991166162" FOLDED="true" ID="ID_1798586465" MODIFIED="1404991183987" TEXT="Tools">
-<node CREATED="1404990862257" FOLDED="true" ID="ID_1793316321" MODIFIED="1404991173062" TEXT="R Programming Language">
+<node CREATED="1405044024668" ID="ID_1205888880" MODIFIED="1405692377064" POSITION="right" TEXT="Week1">
+<node CREATED="1404991166162" ID="ID_1798586465" MODIFIED="1405692378863" TEXT="Tools">
+<node CREATED="1404990862257" ID="ID_1793316321" MODIFIED="1405692382071" TEXT="R Programming Language">
 <node CREATED="1404990886329" ID="ID_553405685" MODIFIED="1404990894722" TEXT="www.r-project.org"/>
 <node CREATED="1404990986326" ID="ID_500077977" MODIFIED="1404990993043" TEXT="R script">
 <node CREATED="1404990996677" ID="ID_7719551" MODIFIED="1404991013243" TEXT="Text file with code in it!"/>
@@ -79,7 +79,7 @@
 <node CREATED="1405002120363" ID="ID_956586355" MODIFIED="1405002129738" TEXT="UserName HarleyHetz@yahoo.com"/>
 <node CREATED="1405002131580" ID="ID_1665760355" MODIFIED="1405002782618" TEXT="Password ILoveKat65"/>
 </node>
-<node CREATED="1405044055932" FOLDED="true" ID="ID_1899450661" MODIFIED="1405050100683" TEXT="R Programming">
+<node CREATED="1405044055932" ID="ID_1899450661" MODIFIED="1405698847788" TEXT="R Programming">
 <node CREATED="1405045588720" ID="ID_390597816" MODIFIED="1405045594042" TEXT="Download R">
 <node CREATED="1405045600400" ID="ID_623633738" LINK="cran.r-project.org" MODIFIED="1405045615596" TEXT="cran.r-project.org"/>
 </node>
@@ -89,6 +89,141 @@
 <node CREATED="1405045625884" ID="ID_956436514" MODIFIED="1405045632896" TEXT="Download RStudio">
 <node CREATED="1405045660337" ID="ID_750304355" LINK="http://www.rstudio.com/" MODIFIED="1405045668644" TEXT="http://www.rstudio.com/"/>
 </node>
+</node>
+</node>
+<node CREATED="1405692372007" ID="ID_1692140828" MODIFIED="1405692375096" POSITION="right" TEXT="Week 2">
+<node CREATED="1405692552248" ID="ID_528657018" MODIFIED="1405692557300" TEXT="Command Line Interface">
+<node CREATED="1405692558447" ID="ID_156292225" MODIFIED="1405692563476" TEXT="Navigate Folders"/>
+<node CREATED="1405692564687" ID="ID_1601209236" MODIFIED="1405692573893" TEXT="Create Files, Folders and Programs"/>
+<node CREATED="1405692574304" ID="ID_584087272" MODIFIED="1405692581110" TEXT="Edit Files, Folders and Programs"/>
+<node CREATED="1405692581601" ID="ID_677374622" MODIFIED="1405692586133" TEXT="Run Computer Programs"/>
+</node>
+<node CREATED="1405692620481" ID="ID_378897322" MODIFIED="1405692623221" TEXT="Directories">
+<node CREATED="1405692624650" ID="ID_1534798824" MODIFIED="1405692636354" TEXT="Home directory is represented by a tilde: ~"/>
+<node CREATED="1405692709021" ID="ID_1432920996" MODIFIED="1405692754250" TEXT="pwd will show you the path to your working directory"/>
+</node>
+<node CREATED="1405692792377" ID="ID_627981768" MODIFIED="1405695127206" TEXT="Commands">
+<node CREATED="1405692796083" ID="ID_1057707146" MODIFIED="1405692806133" TEXT="pwd will show you the path to your working directory"/>
+<node CREATED="1405692807721" ID="ID_1128134773" MODIFIED="1405692833501" TEXT="clear will clear out the commands in your current CLI window"/>
+<node CREATED="1405692827842" ID="ID_1309783176" MODIFIED="1405692861176" TEXT="ls lists files and folders in the current directory">
+<node CREATED="1405692862738" ID="ID_1855072913" MODIFIED="1405692874647" TEXT="ls -a lists hidden and unhidden files and folders"/>
+<node CREATED="1405692875379" ID="ID_1883835305" MODIFIED="1405692890865" TEXT="ls -al lists details for hidden files and folders"/>
+</node>
+<node CREATED="1405692928990" ID="ID_1819432137" MODIFIED="1405692942481" TEXT="cd Change Directory">
+<node CREATED="1405692944693" ID="ID_685125214" MODIFIED="1405692955867" TEXT="takes as an argument the directory you wish to change to"/>
+<node CREATED="1405692956565" ID="ID_52150491" MODIFIED="1405692967459" TEXT="cd .. allows you to change directory to one level up"/>
+</node>
+<node CREATED="1405694667706" FOLDED="true" ID="ID_998893068" MODIFIED="1405694707997" TEXT="mkdir makes a new directory">
+<node CREATED="1405694678984" ID="ID_539385216" MODIFIED="1405694688116" TEXT="Takes as an argument the directory name"/>
+</node>
+<node CREATED="1405694708320" ID="ID_270006429" MODIFIED="1405694714949" TEXT="touch creates an empty file"/>
+<node CREATED="1405694733049" ID="ID_586625782" MODIFIED="1405694739702" TEXT="cp copies a file">
+<node CREATED="1405694742026" ID="ID_1569534016" MODIFIED="1405694751526" TEXT="takes as an argument the file you wish to copy"/>
+<node CREATED="1405694752185" ID="ID_1138105768" MODIFIED="1405694766807" TEXT="takes as a second argument the directory where you want the file to be copied to"/>
+<node CREATED="1405694790667" ID="ID_1216077726" MODIFIED="1405694801969" TEXT="-r Flag allows you to copy a whole directory"/>
+</node>
+<node CREATED="1405694821516" ID="ID_218493237" MODIFIED="1405694828345" TEXT="rm removes a file">
+<node CREATED="1405694829350" ID="ID_466804806" MODIFIED="1405694837393" TEXT="Takes as an argument the file you wish to remove"/>
+<node CREATED="1405694853790" ID="ID_183273739" MODIFIED="1405694865867" TEXT="-r Flag allows you to delete an entire directory"/>
+</node>
+<node CREATED="1405694875103" ID="ID_1687194065" MODIFIED="1405694980421" TEXT="mv Moves a file">
+<node CREATED="1405694909663" ID="ID_605184006" MODIFIED="1405694923784" TEXT="takes as an argument the file you wish to copy"/>
+<node CREATED="1405694924936" ID="ID_521584908" MODIFIED="1405694926646" TEXT="takes as a second argument the directory where you want the file to be copied to "/>
+<node CREATED="1405694936545" ID="ID_1106374774" MODIFIED="1405694944757" TEXT="Can also be used to Rename a file">
+<node CREATED="1405694950665" ID="ID_1455262901" MODIFIED="1405694964006" TEXT="mv filename newfilename"/>
+</node>
+</node>
+<node CREATED="1405694980986" ID="ID_437129950" MODIFIED="1405694990584" TEXT="echo will print whatever arguments you provide"/>
+<node CREATED="1405694998370" ID="ID_1163300693" MODIFIED="1405695002856" TEXT="date will print todays date"/>
+<node CREATED="1405695130400" ID="ID_1811774900" MODIFIED="1405695152909" TEXT="git config allows you to configure GitBash">
+<node CREATED="1405695154600" ID="ID_1884075837" MODIFIED="1405695169757" TEXT="git config --global user.name &quot;Your Name&quot;"/>
+<node CREATED="1405695170224" ID="ID_298884680" MODIFIED="1405695183333" TEXT="git config --global user.email &quot;Your Email&quot;"/>
+<node CREATED="1405695196306" ID="ID_527543568" MODIFIED="1405695209439" TEXT="git config --list shows you your changes"/>
+</node>
+<node CREATED="1405695216507" ID="ID_1982741906" MODIFIED="1405695223432" TEXT="exit Exits the program"/>
+<node CREATED="1405695353015" ID="ID_273755633" MODIFIED="1405695370630" TEXT="git init Initialized a repo for initial use"/>
+<node CREATED="1405695371311" ID="ID_1191187286" MODIFIED="1405695397142" TEXT="git remote add origin https://github.com/yourUserNameHere/RepoName.git">
+<node CREATED="1405695400234" ID="ID_1783588379" MODIFIED="1405695413597" TEXT="Points your local repository at the remote repository of the same name"/>
+</node>
+<node CREATED="1405695757542" ID="ID_857599446" MODIFIED="1405695786133" TEXT="git clone https://github.com/yourUserNameHere/RepoName.git">
+<node CREATED="1405695787393" ID="ID_1007914750" MODIFIED="1405695800180" TEXT="Creates a copy of a remote repo on your local machine"/>
+</node>
+<node CREATED="1405695829171" ID="ID_1403711089" MODIFIED="1405695832093" TEXT="git add">
+<node CREATED="1405695833208" ID="ID_617534954" MODIFIED="1405695840309" TEXT="Multipurpose command!"/>
+<node CREATED="1405695841354" ID="ID_1549453669" MODIFIED="1405695859048" TEXT="git add . Adds all new files"/>
+<node CREATED="1405695859569" ID="ID_1091985076" MODIFIED="1405695874166" TEXT="git add -u updates tracking for files that changed names or were deleted"/>
+<node CREATED="1405695875474" ID="ID_734382897" MODIFIED="1405695885623" TEXT="git add -A does both of the above"/>
+<node CREATED="1405695890066" ID="ID_505374090" MODIFIED="1405695896176" TEXT="Should be done before committing"/>
+<node CREATED="1405695897043" ID="ID_214586517" MODIFIED="1405695953929" TEXT="Also changes a files status from changed to staged"/>
+</node>
+<node CREATED="1405695965917" ID="ID_101701909" MODIFIED="1405695977066" TEXT="git commit -m &quot;Message&quot;">
+<node CREATED="1405695978333" ID="ID_1937050217" MODIFIED="1405696002930" TEXT="Commits staged files and includes the &quot;Message&quot; so you can annotate changes"/>
+</node>
+<node CREATED="1405696009463" ID="ID_1294952875" MODIFIED="1405696023411" TEXT="git push -u origin &quot;Branch&quot;">
+<node CREATED="1405696024678" ID="ID_1064189714" MODIFIED="1405696081246" TEXT="Pushes committed files up to the Remote Repo where &quot;Branch&quot; = the branch name that you want the changes to point to"/>
+</node>
+<node CREATED="1405696089866" ID="ID_495360483" MODIFIED="1405696100366" TEXT="git checkout -b &quot;Branch&quot;">
+<node CREATED="1405696101521" ID="ID_88504094" MODIFIED="1405696126448" TEXT="Gets a copy of the named branch to work with...allows you to start from a previously saved version"/>
+</node>
+<node CREATED="1405696133522" ID="ID_187675853" MODIFIED="1405696143960" TEXT="git branch To see what branch you are working on"/>
+<node CREATED="1405696147495" ID="ID_548818017" MODIFIED="1405696158968" TEXT="git checkout master To switch back to the master branch"/>
+<node CREATED="1405696174172" ID="ID_1351324359" MODIFIED="1405696177578" TEXT="git pull">
+<node CREATED="1405696178477" ID="ID_927050371" MODIFIED="1405696199074" TEXT="Pulls down from the Remote Repo all changes sent since you last pulled"/>
+</node>
+</node>
+<node CREATED="1405695024756" ID="ID_1983809104" MODIFIED="1405695029296" TEXT="Version Control">
+<node CREATED="1405695030171" ID="ID_1681989020" MODIFIED="1405695068558" TEXT="A system that records changes to a file or set of files over time so that you can recall specific versions later"/>
+<node CREATED="1405695071717" ID="ID_1954214509" MODIFIED="1405695083331" TEXT="Especially important when collaborating with others"/>
+</node>
+<node CREATED="1405695237995" ID="ID_1507946074" MODIFIED="1405695246473" TEXT="Git is a distributed version control system">
+<node CREATED="1405697020255" ID="ID_255563297" LINK="http://git-scm.com/book/en/Getting-Started-About-Version-Control" MODIFIED="1405697051614" TEXT="http://git-scm.com/book/en/Getting-Started-About-Version-Control"/>
+<node CREATED="1405698274283" ID="ID_1471204958" LINK="http://en.wikipedia.org/wiki/Revision_control" MODIFIED="1405698307730" TEXT="http://en.wikipedia.org/wiki/Revision_control"/>
+<node CREATED="1405698368808" ID="ID_967575845" LINK="http://git-scm/book/en/Getting-Started-A-Short-History-of-Git" MODIFIED="1405698397940" TEXT="http://git-scm/book/en/Getting-Started-A-Short-History-of-Git"/>
+<node CREATED="1405698621080" ID="ID_1109329976" LINK="http://git-scm.com/doc" MODIFIED="1405698635979" TEXT="http://git-scm.com/doc"/>
+<node CREATED="1405698636577" ID="ID_740482330" LINK="https://help.github.com" MODIFIED="1405698651453" TEXT="https://help.github.com"/>
+</node>
+<node CREATED="1405695247219" ID="ID_1964485687" MODIFIED="1405695267929" TEXT="GitHub is a web-based hosting service that uses Git">
+<node CREATED="1405698449497" ID="ID_1772535952" LINK="http://en.wikipedia.org/wiki/GitHub" MODIFIED="1405698470565" TEXT="http://en.wikipedia.org/wiki/GitHub"/>
+<node CREATED="1405698481027" ID="ID_550026409" LINK="https://github.com/" MODIFIED="1405698496807" TEXT="https://github.com/"/>
+</node>
+<node CREATED="1405695308583" ID="ID_1527873348" MODIFIED="1405695311850" TEXT="Repository">
+<node CREATED="1405695312893" ID="ID_1167335604" MODIFIED="1405695318219" TEXT="Location to store files"/>
+<node CREATED="1405695319071" ID="ID_882575655" MODIFIED="1405695328972" TEXT="Can be local (Git) or remote (GitHub)"/>
+</node>
+<node CREATED="1405696213870" ID="ID_1401051278" MODIFIED="1405696216501" TEXT="Markdown">
+<node CREATED="1405696217647" ID="ID_300808719" MODIFIED="1405696229748" TEXT="## To Create a Secondary Heading"/>
+<node CREATED="1405696230447" ID="ID_623926622" MODIFIED="1405696239284" TEXT="### To create a Tertiary Heading"/>
+<node CREATED="1405696247072" ID="ID_1611869675" MODIFIED="1405696254670" TEXT="* To create an item in a list"/>
+<node CREATED="1405696428175" ID="ID_481329805" MODIFIED="1405696758037" TEXT="Introduction to Markdown">
+<node CREATED="1405696436407" ID="ID_1619604441" LINK="http://daringfireball.net/projects/markdown/" MODIFIED="1405696455092" TEXT="http://daringfireball.net/projects/markdown/"/>
+</node>
+<node CREATED="1405696759068" ID="ID_1387532017" MODIFIED="1405696764032" TEXT="R Markdown">
+<node CREATED="1405696765169" ID="ID_1044790798" LINK="http://www.rstudio.com/ide/docs/authoring/using_markdown" MODIFIED="1405696800743" TEXT="http://www.rstudio.com/ide/docs/authoring/using_markdown"/>
+</node>
+</node>
+<node CREATED="1405698542157" ID="ID_798676846" MODIFIED="1405698546570" TEXT="Fork a Repo">
+<node CREATED="1405698547661" ID="ID_268525926" LINK="https://help.github.com/articles/fork-a-repo" MODIFIED="1405698566626" TEXT="https://help.github.com/articles/fork-a-repo"/>
+<node CREATED="1405698568086" ID="ID_903189253" LINK="http://git-scm/book/en/Git-Basics-Getting-a-Git-Repository" MODIFIED="1405698597043" TEXT="http://git-scm/book/en/Git-Basics-Getting-a-Git-Repository"/>
+</node>
+<node CREATED="1405698826872" ID="ID_1661798815" MODIFIED="1405698830366" TEXT="R Packages">
+<node CREATED="1405699059650" ID="ID_1045299112" MODIFIED="1405699079406" TEXT="The Base R system comes with basic functionality"/>
+<node CREATED="1405699080161" ID="ID_1534810152" MODIFIED="1405699413203" TEXT="R Packages extend the basic functionality of R"/>
+<node CREATED="1405699424640" ID="ID_1659149916" MODIFIED="1405699448837" TEXT="To obtain packages, go to CRAN or the Bioconductor Project">
+<node CREATED="1405699655255" ID="ID_1664506539" LINK="http://www.bioconductior.org/install/" MODIFIED="1405699759494" TEXT="http://www.bioconductior.org/install/"/>
+</node>
+<node CREATED="1405699468465" ID="ID_1992077733" MODIFIED="1405699560520" TEXT="Packages can be installed with the install.packages(&quot;PackageName&quot;) function in R">
+<node CREATED="1405699574788" ID="ID_1518115952" MODIFIED="1405699593026" TEXT="Multiple packages can be installed by separating the names by commas"/>
+</node>
+<node CREATED="1405699604668" ID="ID_1033814232" MODIFIED="1405699618610" TEXT="In RStudio, &quot;Tools&quot; &quot;Install Packages&quot;">
+<node CREATED="1405699627880" ID="ID_1788415124" MODIFIED="1405699643131" TEXT="Again, separate names by commas to install multiple"/>
+</node>
+</node>
+<node CREATED="1405699796580" ID="ID_1262610621" MODIFIED="1405699890264" TEXT="To Load an R Package">
+<node CREATED="1405699807141" ID="ID_395907041" MODIFIED="1405699834641" TEXT="library(PackageName) funciton is used NOTE: No quotes"/>
+<node CREATED="1405699844293" ID="ID_473162142" MODIFIED="1405699864627" TEXT="search() function will return the functions available after loading"/>
+</node>
+<node CREATED="1405699891047" ID="ID_345085729" MODIFIED="1405699894852" TEXT="Rtools">
+<node CREATED="1405699896056" ID="ID_1475414376" LINK="http://cran.r-project.org/bin/windows/Rtools/" MODIFIED="1405699918524" TEXT="http://cran.r-project.org/bin/windows/Rtools/"/>
 </node>
 </node>
 </node>
