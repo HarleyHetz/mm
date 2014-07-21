@@ -84,15 +84,18 @@
 <node CREATED="1405095856256" ID="ID_1751942286" MODIFIED="1405096898584" TEXT="The difference between the high and low values of your class">
 <arrowlink COLOR="#0000cc" DESTINATION="ID_611208526" ENDARROW="Default" ENDINCLINATION="373;0;" ID="Arrow_ID_1282633047" STARTARROW="None" STARTINCLINATION="373;0;"/>
 </node>
-<node CREATED="1405096063643" ID="ID_553036787" MODIFIED="1405097110174">
+<node CREATED="1405096063643" ID="ID_553036787" MODIFIED="1405968368013">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="My%20Pictures/Range%20Formula.png" />
+    <p>
+      <u>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;range&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </u>&#160;&#160;&#160;=&#160;&#160;&#160;&#160;&#160;<u>H - L</u><br />number of classes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;K
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <linktarget COLOR="#009933" DESTINATION="ID_553036787" ENDARROW="Default" ENDINCLINATION="187;0;" ID="Arrow_ID_726623324" SOURCE="ID_1993281745" STARTARROW="None" STARTINCLINATION="187;0;"/>
 </node>
 </node>
@@ -139,15 +142,19 @@
 </node>
 </node>
 <node CREATED="1405093158069" ID="ID_784368289" MODIFIED="1405159818829" POSITION="right" TEXT="Data">
-<node CREATED="1405093166029" ID="ID_1143462119" MODIFIED="1405094360610">
+<node CREATED="1405093166029" ID="ID_1143462119" MODIFIED="1405969683003">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="My%20Pictures/Level%20of%20Measurement.png" />
+    <p>
+      <br />
+      Property&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Nominal Ordinal Interval Ratio<br />Order of data is meaningful&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y<br />Difference between data is meaningful&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;Y<br />Zero point represents total absense&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1405161385666" ID="ID_1896816765" MODIFIED="1405161388880" TEXT="Raw Data">
 <node CREATED="1405161390328" ID="ID_1212349517" MODIFIED="1405161412462" TEXT="Data recorded in the sequence in which they are collected and before they are porcessed or ranked."/>
 </node>
@@ -265,13 +272,142 @@
 <node CREATED="1405166007385" ID="ID_328086043" MODIFIED="1405166016181" TEXT="A measure of spread"/>
 </node>
 </node>
-<node CREATED="1405165232531" ID="ID_1602925937" MODIFIED="1405165238683" TEXT="Measures of Position"/>
-<node CREATED="1405165242101" ID="ID_1408988314" MODIFIED="1405165246043" TEXT="Measures of Shape"/>
+<node CREATED="1405165232531" ID="ID_1602925937" MODIFIED="1405165238683" TEXT="Measures of Position">
+<node CREATED="1405968600965" ID="ID_759639929" MODIFIED="1405968940264" TEXT="Percentile">
+<node CREATED="1405968604748" ID="ID_949023076" MODIFIED="1405968611752" TEXT="The most common measure of position"/>
+<node CREATED="1405968833245" ID="ID_536984609" MODIFIED="1405968843354" TEXT="Refers to the position in Ordered Data"/>
+<node CREATED="1405968612836" ID="ID_373049488" MODIFIED="1405968829103">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160; <u>&#160;&#160;&#160;P </u><br />n * 100<br />So, the 35 percentile of 50 data elements is:<br />50 * .35 = 17.5
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1405968850975" ID="ID_1914387847" MODIFIED="1405968883923" TEXT="Rule #1: if percentile is not a counting number, round up to find the position in ordered data."/>
+<node CREATED="1405968884618" ID="ID_851746177" MODIFIED="1405968919844" TEXT="Rule #2: if percentile IS a counting number, take the average of the number at this location, and the next higher location in ordered data."/>
+</node>
+<node CREATED="1405968941271" ID="ID_579842964" MODIFIED="1405968945904" TEXT="Quartiles">
+<node CREATED="1405968947222" ID="ID_1725429414" MODIFIED="1405968959968" TEXT="Percentiles that divide the data into quarters"/>
+</node>
+<node CREATED="1405968981348" ID="ID_1436545233" MODIFIED="1405968985747" TEXT="z-Scores">
+<node CREATED="1405968986800" ID="ID_1621827406" MODIFIED="1405969002026" TEXT="Based on the mean and standard deviation of a data set"/>
+<node CREATED="1405969104926" ID="ID_333497383" MODIFIED="1405969120136" TEXT="Expressed in terms of the number of standard deviations above or below the mean"/>
+<node CREATED="1405969003141" ID="ID_1417668638" MODIFIED="1405969098210">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <u>&#160; &#160;</u><br />z = <u>&#160;&#160;&#160;x - x&#160; </u><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1405165242101" ID="ID_1408988314" MODIFIED="1405165246043" TEXT="Measures of Shape">
+<node CREATED="1405969134168" ID="ID_1525836504" MODIFIED="1405969470885" TEXT="Skewness">
+<node CREATED="1405969191382" ID="ID_1360966905" MODIFIED="1405969217825" TEXT="In symmetrical data, the mean = the median"/>
+<node CREATED="1405969218847" ID="ID_222119873" MODIFIED="1405969228550" TEXT="Skewness refers to how far apart they are"/>
+<node CREATED="1405969230290" ID="ID_1314702649" MODIFIED="1405969241381" TEXT="Pearson&apos;s coefficient of skewness:">
+<node CREATED="1405969242902" ID="ID_151829836" MODIFIED="1405969352588">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;_<br />Sk = <u>&#160;&#160;3(x - Md)&#160; </u><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s
+    </p>
+    <p>
+      _<br />x = Mean
+    </p>
+    <p>
+      Md = Median
+    </p>
+    <p>
+      s = Standard Deviation
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1405969471798" ID="ID_578478143" MODIFIED="1405969476634" TEXT="Kurtosis">
+<node CREATED="1405969477484" ID="ID_292729794" MODIFIED="1405969486049" TEXT="Measures the peakedness of data...not used much"/>
+</node>
+</node>
+<node CREATED="1405971064389" ID="ID_1641637342" MODIFIED="1405971071456" TEXT="Measure of Association">
+<node CREATED="1405970482736" ID="ID_1880880102" MODIFIED="1405970491207" TEXT="Bivariate Data">
+<node CREATED="1405970492291" ID="ID_1670205104" MODIFIED="1405970509561" TEXT="Contains a &quot;y&quot; value for each &quot;x&quot; value"/>
+<node CREATED="1405970519335" ID="ID_168492462" MODIFIED="1405970529210" TEXT="Represented by a scatter diagram"/>
+<node CREATED="1405970542680" ID="ID_851548588" MODIFIED="1405970559513" TEXT="Coefficient of Correlation: r">
+<node CREATED="1405970762161" ID="ID_1376208096" MODIFIED="1405971442610" TEXT="Formula for Population Data r is (Sum(x - mean of x)*(y - mean of y)) / (Sqrt(Sum(x - mean of x)^2) * Sqrt(Sum(y - mean of y)^2))"/>
+<node CREATED="1405970905723" ID="ID_1832742106" MODIFIED="1405970913617" TEXT="r Ranges from -1 to 1"/>
+<node CREATED="1405971449014" ID="ID_1726827453" MODIFIED="1405971626734" TEXT="Formula for Sample Data r is ((Sum(x - mean of x)*(y - mean of y)) / (n - 1)) / ((Sqrt(Sum(x - mean of x)^2) / n - 1) * (Sqrt(y - mane of y)^2) / n-1))"/>
+<node CREATED="1405970914108" ID="ID_1910976175" MODIFIED="1405970927899" TEXT="The larger the absolute value of r, the stronger the relationship"/>
+<node CREATED="1405970931822" ID="ID_831606571" MODIFIED="1405970965348" TEXT="Positive r indicates correlation, negative r indicates inverse relationship"/>
+</node>
+<node CREATED="1405971638754" ID="ID_1577674438" MODIFIED="1405971642982" TEXT="Covariance">
+<node CREATED="1405971649011" ID="ID_1000510310" MODIFIED="1405971696125" TEXT="con(x,y) = (Sum(x - mean of x) * (y - mean of y)) / n - 1"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1405969702058" ID="ID_1291800791" MODIFIED="1405969736083" POSITION="right" TEXT="Chebyshev&apos;s Inequality">
+<node CREATED="1405969737073" ID="ID_1414053273" MODIFIED="1405969953652">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      For any data set:<br />1. At least 75% of the data values lie between -2 and +2 standard deviations from the mean<br />2. At least 89% lie between -3 and +3 standard deviations from the mean<br />3. In general, at least (1 - 1/k^2) X 100% of your data values lie between k standard deviations above and below the mean for any value of k &gt; 1
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1405969963137" ID="ID_29608850" MODIFIED="1405969969081" POSITION="right" TEXT="Empirical Rule">
+<node CREATED="1405969969962" ID="ID_1434698657" MODIFIED="1405970094000">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Under the assumption of a bell shaped population
+    </p>
+    <ol>
+      <li>
+        ~ 68% of the data values lie between -1 and 1 standard deviation from the mean<br />
+      </li>
+      <li>
+        ~ 95% of the data values lie between -2 and 2 standard deviations from the mean
+      </li>
+      <li>
+        ~ 99% between -3 and 3 standard deviations
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1405161236485" ID="ID_446952770" MODIFIED="1405161239687" POSITION="right" TEXT="Notation">
 <node CREATED="1405161244535" ID="ID_54286161" MODIFIED="1405161246857" TEXT="Sigma">
-<node CREATED="1405161248755" ID="ID_546400471" MODIFIED="1405161318676" TEXT="&#xf053;">
+<node CREATED="1405161248755" ID="ID_546400471" MODIFIED="1405970613935" TEXT="&#xf053;">
 <font NAME="Symbol" SIZE="12"/>
 <node CREATED="1405161321054" ID="ID_1405891563" MODIFIED="1405161328888" TEXT="The sum of all values"/>
 </node>
