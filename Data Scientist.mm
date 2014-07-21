@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1404990805437" ID="ID_1050103273" MODIFIED="1404990819073" TEXT="Data Scientist">
-<node CREATED="1405044024668" ID="ID_1205888880" MODIFIED="1405692377064" POSITION="right" TEXT="Week1">
+<node CREATED="1405771295173" ID="ID_1450784697" MODIFIED="1405771304582" POSITION="right" TEXT="The Data Scientist Toolbox">
+<node CREATED="1405044024668" FOLDED="true" ID="ID_1205888880" MODIFIED="1405771279980" TEXT="Week1">
 <node CREATED="1404991166162" ID="ID_1798586465" MODIFIED="1405692378863" TEXT="Tools">
 <node CREATED="1404990862257" ID="ID_1793316321" MODIFIED="1405692382071" TEXT="R Programming Language">
 <node CREATED="1404990886329" ID="ID_553405685" MODIFIED="1404990894722" TEXT="www.r-project.org"/>
@@ -91,7 +92,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1405692372007" ID="ID_1692140828" MODIFIED="1405692375096" POSITION="right" TEXT="Week 2">
+<node CREATED="1405692372007" FOLDED="true" ID="ID_1692140828" MODIFIED="1405771283428" TEXT="Week 2">
 <node CREATED="1405692552248" ID="ID_528657018" MODIFIED="1405692557300" TEXT="Command Line Interface">
 <node CREATED="1405692558447" ID="ID_156292225" MODIFIED="1405692563476" TEXT="Navigate Folders"/>
 <node CREATED="1405692564687" ID="ID_1601209236" MODIFIED="1405692573893" TEXT="Create Files, Folders and Programs"/>
@@ -224,6 +225,47 @@
 </node>
 <node CREATED="1405699891047" ID="ID_345085729" MODIFIED="1405699894852" TEXT="Rtools">
 <node CREATED="1405699896056" ID="ID_1475414376" LINK="http://cran.r-project.org/bin/windows/Rtools/" MODIFIED="1405699918524" TEXT="http://cran.r-project.org/bin/windows/Rtools/"/>
+</node>
+</node>
+<node CREATED="1405771285323" ID="ID_475115503" MODIFIED="1405771290378" TEXT="Week 3">
+<node CREATED="1405771378155" ID="ID_307657865" MODIFIED="1405771387186" TEXT="Types of Data Science Questions">
+<node CREATED="1405771388994" ID="ID_1978169019" MODIFIED="1405771392866" TEXT="Descriptive">
+<node CREATED="1405771433436" ID="ID_1329932506" MODIFIED="1405771440858" TEXT="Goal: Describe a set of data"/>
+<node CREATED="1405771441256" ID="ID_304033627" MODIFIED="1405771450908" TEXT="First kind of data analysis performed"/>
+</node>
+<node CREATED="1405771393624" ID="ID_6737788" MODIFIED="1405771396456" TEXT="Exploratory">
+<node CREATED="1405771810101" ID="ID_404975821" MODIFIED="1405771832697" TEXT="Goal: Find relationships you didn&apos;t know about"/>
+<node CREATED="1405771833475" ID="ID_931249019" MODIFIED="1405771842185" TEXT="Good for discovering new relationships"/>
+<node CREATED="1405771842563" ID="ID_1572423760" MODIFIED="1405771850785" TEXT="Useful for defining future studies"/>
+</node>
+<node CREATED="1405771396694" ID="ID_1781147248" MODIFIED="1405771399326" TEXT="Inferential">
+<node CREATED="1405772177855" ID="ID_1107068959" MODIFIED="1405772199159" TEXT="Goal: Use a relatively small sample of data to say something about a bigger population"/>
+<node CREATED="1405772200497" ID="ID_734514575" MODIFIED="1405772210229" TEXT="Commonly the goal of statistical models"/>
+<node CREATED="1405772217347" ID="ID_1599380177" MODIFIED="1405772235749" TEXT="Involves estimating both the quantity you care about, and your uncertainty about your estimate"/>
+<node CREATED="1405772242797" ID="ID_1084409094" MODIFIED="1405772257499" TEXT="Depends heavily upon both the population and the sampling scheme"/>
+</node>
+<node CREATED="1405771399564" ID="ID_1959209613" MODIFIED="1405771401606" TEXT="Predictive">
+<node CREATED="1405772281023" ID="ID_1156847725" MODIFIED="1405772296497" TEXT="Goal: Use the data on some objects to predict values for another object"/>
+<node CREATED="1405772297045" ID="ID_1527860999" MODIFIED="1405772308927" TEXT="If X predicts Y it does not mean that X causes Y"/>
+<node CREATED="1405772311715" ID="ID_706562472" MODIFIED="1405772334607" TEXT="More data and a simple model works really well"/>
+<node CREATED="1405772336445" ID="ID_1709864055" MODIFIED="1405772347557" TEXT="Prediction is very hard, especially about the future references"/>
+</node>
+<node CREATED="1405771401834" ID="ID_980908609" MODIFIED="1405771404096" TEXT="Causal">
+<node CREATED="1405772363319" ID="ID_1687062535" MODIFIED="1405772376861" TEXT="Goal: To find out what happens to one variable when you make another variable change"/>
+<node CREATED="1405772377629" ID="ID_671900705" MODIFIED="1405772389765" TEXT="Usually randomized studies are required to identify causation"/>
+<node CREATED="1405772397054" ID="ID_627642739" MODIFIED="1405772426696" TEXT="Causal relationships are usually identified as average effects, but may not apply to every individual"/>
+<node CREATED="1405772432588" ID="ID_914290851" MODIFIED="1405772451300" TEXT="Causal models are usually the Gold Standard for data analysis"/>
+</node>
+<node CREATED="1405771404324" ID="ID_177369450" MODIFIED="1405771407058" TEXT="Mechanistic">
+<node CREATED="1405772480526" ID="ID_1466356236" MODIFIED="1405772500538" TEXT="Goal: Understand the exact changes in variables that lead to changes in other variables for individual objects"/>
+<node CREATED="1405772501041" ID="ID_367687623" MODIFIED="1405772511613" TEXT="Incredibly hard to infer, except in simple situations"/>
+<node CREATED="1405772516781" ID="ID_108924083" MODIFIED="1405772539873" TEXT="Usually modeled by a deterministic set of equations (physical/engineering science)"/>
+<node CREATED="1405772540091" ID="ID_670797699" MODIFIED="1405772551523" TEXT="Generally, the random component of the data is measurement error"/>
+<node CREATED="1405772563171" ID="ID_228348588" MODIFIED="1405772580103" TEXT="If the equations are known but the parameters are not, they may be inferred with data analysis"/>
+</node>
+</node>
+<node CREATED="1405772880767" ID="ID_122437141" MODIFIED="1405772891979" TEXT="The most important thing in Data Science is the question"/>
+<node CREATED="1405772892897" ID="ID_1410774358" MODIFIED="1405772901989" TEXT="The Data is the second most important thing"/>
 </node>
 </node>
 </node>
