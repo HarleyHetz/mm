@@ -1,24 +1,22 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1404932908214" ID="ID_1546895440" MODIFIED="1405018344119" TEXT="VB Programming">
-<node CREATED="1404932922844" FOLDED="true" ID="ID_1006168878" MODIFIED="1405018344089" POSITION="right" TEXT="Database">
-<node CREATED="1404933568595" FOLDED="true" ID="ID_1232876330" MODIFIED="1405018344089" TEXT="SQL">
+<node CREATED="1404932922844" FOLDED="true" ID="ID_1006168878" MODIFIED="1406709088635" POSITION="right" TEXT="Database">
+<node CREATED="1404933568595" FOLDED="true" ID="ID_1232876330" MODIFIED="1406709086962" TEXT="SQL">
 <node CREATED="1404932961109" ID="ID_1619734490" MODIFIED="1404933003095" TEXT="Imports System.Data.SqlClient"/>
-<node CREATED="1404932940930" FOLDED="true" ID="ID_1338060259" MODIFIED="1405018344081" TEXT="Create a Dataset">
-<node CREATED="1404933010831" ID="ID_1741029284" MODIFIED="1404933111323" TEXT="Declare Variable &quot;As New&quot;"/>
-<node CREATED="1404933119403" FOLDED="true" ID="ID_578362614" MODIFIED="1405018344080" TEXT="Using Data Adapters, fill the tables">
+<node CREATED="1404932940930" ID="ID_1338060259" MODIFIED="1406708901510" TEXT="Create a Dataset">
+<node CREATED="1404933010831" ID="ID_1741029284" MODIFIED="1406708966609" TEXT="Dim daVariable As New SQLClient.DataAdapter"/>
 <node CREATED="1404933183790" ID="ID_1255571701" MODIFIED="1404933203226" TEXT="daVariables.Fill(myDataset, &quot;Variables&quot;)"/>
 </node>
-</node>
-<node CREATED="1404933211886" FOLDED="true" ID="ID_1033678718" MODIFIED="1405018344081" TEXT="Create a Data Adapter">
+<node CREATED="1404933211886" ID="ID_1033678718" MODIFIED="1406709005045" TEXT="Create a Data Adapter">
 <node CREATED="1404933255424" ID="ID_755149390" MODIFIED="1404933263008" TEXT="Declare a Variable"/>
 <node CREATED="1404933269632" ID="ID_951819588" MODIFIED="1404933323562" TEXT="Set = New SqlClient.DataAdapter(Query as String, Connection as SqlConnection)"/>
 <node CREATED="1404933352452" ID="ID_976440502" MODIFIED="1404933397157" TEXT="Call the .Fill Method passing in the name of the Dataset, and a String containing the Table Name to use"/>
 <node CREATED="1404933519778" ID="ID_344621049" MODIFIED="1404933535714" TEXT="To Update, create an Update command"/>
 <node CREATED="1404933542235" ID="ID_1926651234" MODIFIED="1404933552506" TEXT="Call .Dispose method when finished"/>
 </node>
-<node CREATED="1404933919063" FOLDED="true" ID="ID_1118057011" MODIFIED="1405018344082" TEXT="Update a Single Table">
-<node CREATED="1404933603964" FOLDED="true" ID="ID_1114437318" MODIFIED="1405018344081" TEXT="Create a Command">
+<node CREATED="1404933919063" ID="ID_1118057011" MODIFIED="1406708885398" TEXT="Update a Single Table">
+<node CREATED="1404933603964" ID="ID_1114437318" MODIFIED="1406708887836" TEXT="Create a Command">
 <node CREATED="1404933255424" ID="ID_432512204" MODIFIED="1404933263008" TEXT="Declare a Variable"/>
 <node CREATED="1404933857627" ID="ID_938109653" MODIFIED="1404934032139" TEXT="Set = New SQLClient.Command"/>
 </node>
@@ -89,7 +87,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1405000286768" FOLDED="true" ID="ID_794386615" MODIFIED="1405018344106" POSITION="right" TEXT="Arrays">
+<node CREATED="1405000286768" FOLDED="true" ID="ID_794386615" MODIFIED="1406636476371" POSITION="right" TEXT="Arrays">
 <node CREATED="1405000292843" FOLDED="true" ID="ID_673982689" MODIFIED="1405018344091" TEXT="        Dim myArray(0) As String&#xa;        Dim x As Integer&#xa;         For x = 0 To 10&#xa;             ReDim Preserve myArray(x)&#xa;             myArray(x) = &quot;x = &quot; &amp; x&#xa;         Next&#xa;         For x = 0 To UBound(myArray)&#xa;             Debug.Print(myArray(x))&#xa;         Next ">
 <node CREATED="1405000384710" FOLDED="true" ID="ID_1206333642" MODIFIED="1405018344089" TEXT="Dim myArray(0) As String">
 <node CREATED="1405000410679" ID="ID_1218585032" MODIFIED="1405000430598" TEXT="Creates a single dimension array that contains a string"/>
@@ -112,7 +110,21 @@
 <node COLOR="#ff0000" CREATED="1405000835150" ID="ID_820508472" MODIFIED="1405000860566" TEXT="NOTE: The UBound can be changed with a Redim Preserve just like the one above!"/>
 </node>
 </node>
-<node CREATED="1405009265289" FOLDED="true" ID="ID_1763064371" MODIFIED="1405083128346" POSITION="right" TEXT="Excel">
+<node CREATED="1406636479499" ID="ID_1038982768" MODIFIED="1406636482887" POSITION="right" TEXT="Collections">
+<node CREATED="1406636484361" ID="ID_537440973" MODIFIED="1406636546112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Use the .Contains Method to see if an item belongs to a collection<br />If myCollection.Contains(&quot;Index&quot;) Then
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1405009265289" ID="ID_1763064371" MODIFIED="1406748041200" POSITION="right" TEXT="Excel">
 <node CREATED="1405009360773" ID="ID_1111280562" MODIFIED="1405009467486" TEXT=" Imports Microsoft.VisualBasic&#xa; Imports Microsoft.Office&#xa; Imports Excel = Microsoft.Office.Interop.Excel&#xa; Imports System.IO &#xa;    Private myFileName As String&#xa;    Private xlApp As Excel.Application = New Excel.Application&#xa;    Private xlWorkbook As Excel.Workbook&#xa;    Private xlWorkbooks As Excel.Workbooks&#xa;    Private xlWorksheets As Excel.Worksheets&#xa;    Private xlWorksheet As Excel.Worksheet = Nothing&#xa;"/>
 <node CREATED="1405009271600" FOLDED="true" ID="ID_1040637293" MODIFIED="1405019716813" TEXT="Open an Existing File">
 <node CREATED="1405017559323" FOLDED="true" ID="ID_1565378438" MODIFIED="1405018344106" TEXT="xlApp.DisplayAlerts = False">
@@ -173,7 +185,7 @@
 <node CREATED="1405010112054" ID="ID_1534787393" MODIFIED="1405010119348" TEXT="Quits the application"/>
 </node>
 </node>
-<node CREATED="1405018515449" FOLDED="true" ID="ID_1593490867" MODIFIED="1405083122268" TEXT="Worksheets">
+<node CREATED="1405018515449" ID="ID_1593490867" MODIFIED="1406748102955" TEXT="Worksheets">
 <node CREATED="1405019518418" FOLDED="true" ID="ID_412846728" MODIFIED="1405019662042" TEXT="Add a new worksheet">
 <node CREATED="1405019542986" ID="ID_1392853862" MODIFIED="1405019610260" TEXT="Refer to the workbook">
 <node CREATED="1405019596262" ID="ID_1671630048" MODIFIED="1405019601245" TEXT="With xlWorkBook"/>
@@ -237,7 +249,7 @@
 <node CREATED="1405017837249" ID="ID_950815190" MODIFIED="1405017842623" TEXT="Sets the color of the style"/>
 </node>
 </node>
-<node CREATED="1405017906092" FOLDED="true" ID="ID_272599077" MODIFIED="1405083125557" TEXT="Range">
+<node CREATED="1405017906092" ID="ID_272599077" MODIFIED="1406748044976" TEXT="Range">
 <node CREATED="1405017951957" FOLDED="true" ID="ID_907363470" MODIFIED="1405018344117" TEXT="Remove Duplicates from column A through column O">
 <node CREATED="1405017911491" ID="ID_1147585230" MODIFIED="1405017937171" TEXT=".Range(&quot;A1&quot;, &quot;O65536&quot;).RemoveDuplicates(Columns:=5, Header:=Excel.XlYesNoGuess.xlYes)"/>
 </node>
@@ -278,15 +290,15 @@
 <node CREATED="1405020146448" ID="ID_588995364" MODIFIED="1405020148206" TEXT="storeRange.Rows.Group()"/>
 </node>
 </node>
-<node CREATED="1405019948599" FOLDED="true" ID="ID_227903412" MODIFIED="1405020960709" TEXT="Cells">
-<node CREATED="1405018923064" FOLDED="true" ID="ID_145442491" MODIFIED="1405019702903" TEXT="Loop through all the cells in a column">
+<node CREATED="1405019948599" ID="ID_227903412" MODIFIED="1406748055704" TEXT="Cells">
+<node CREATED="1405018923064" FOLDED="true" ID="ID_145442491" MODIFIED="1406748336807" TEXT="Loop through all the cells in a column">
 <node CREATED="1405018942551" ID="ID_1180199958" MODIFIED="1405018999697" TEXT="For x = 1 To .rows.count">
 <node CREATED="1405018959577" ID="ID_1434624804" MODIFIED="1405019684383" TEXT="This would be after refering to the sheet with a &quot;With&quot; statement like above">
 <arrowlink DESTINATION="ID_1083629917" ENDARROW="Default" ENDINCLINATION="432;0;" ID="Arrow_ID_1384511904" STARTARROW="None" STARTINCLINATION="432;0;"/>
 </node>
 </node>
 </node>
-<node CREATED="1405019029164" FOLDED="true" ID="ID_1358203121" MODIFIED="1405019706445" TEXT="To CHECK the contents of a cell">
+<node CREATED="1405019029164" FOLDED="true" ID="ID_1358203121" MODIFIED="1406748340542" TEXT="To CHECK the contents of a cell">
 <node CREATED="1405019038364" ID="ID_1789647306" MODIFIED="1405019077723" TEXT="If .cells(x, y).Text = &quot;Whatever&quot; Then"/>
 </node>
 <node CREATED="1405019085429" FOLDED="true" ID="ID_777611688" MODIFIED="1405019707591" TEXT="To SET the contents of a cell">
@@ -299,5 +311,6 @@
 </node>
 </node>
 </node>
+<node CREATED="1406676249444" ID="ID_1245195750" MODIFIED="1406676251722" POSITION="right" TEXT="Files"/>
 </node>
 </map>

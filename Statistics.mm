@@ -94,8 +94,7 @@
       <u>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;range&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </u>&#160;&#160;&#160;=&#160;&#160;&#160;&#160;&#160;<u>H - L</u><br />number of classes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;K
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#009933" DESTINATION="ID_553036787" ENDARROW="Default" ENDINCLINATION="187;0;" ID="Arrow_ID_726623324" SOURCE="ID_1993281745" STARTARROW="None" STARTINCLINATION="187;0;"/>
 </node>
 </node>
@@ -126,6 +125,24 @@
 <node CREATED="1405164510672" ID="ID_546684151" MODIFIED="1405164513524" TEXT="Ogive">
 <node CREATED="1405164516302" ID="ID_156449153" MODIFIED="1405164723576" TEXT="Cumulative Frequency Diagram curve drawn by connecting dots representing the upper boundries of the cumulative values for each class."/>
 </node>
+<node CREATED="1406117989796" ID="ID_1840796819" MODIFIED="1406117993448" TEXT="Experiment">
+<node CREATED="1406117994748" ID="ID_941288551" MODIFIED="1406118004752" TEXT="Activity for which the outcome is uncertain"/>
+</node>
+<node CREATED="1406118011828" ID="ID_943267692" MODIFIED="1406118013457" TEXT="Event">
+<node CREATED="1406118014684" ID="ID_1641393318" MODIFIED="1406118036417" TEXT="A possible outcome of an experiment"/>
+</node>
+<node CREATED="1406118320144" ID="ID_1211649473" MODIFIED="1406118324708" TEXT="Sample Space">
+<node CREATED="1406118325247" ID="ID_1598784166" MODIFIED="1406118336245" TEXT="Set of all possible outcomes of an experiment"/>
+</node>
+<node CREATED="1406117845030" ID="ID_948704451" MODIFIED="1406117849835" TEXT="Random Variable">
+<node CREATED="1406117850895" ID="ID_703723473" MODIFIED="1406117874644" TEXT="A function that assigns a numerical value to each outcome of an experiment"/>
+<node CREATED="1406117877615" ID="ID_1959789878" MODIFIED="1406117884788" TEXT="Discreet">
+<node CREATED="1406117899633" ID="ID_611191003" MODIFIED="1406117905916" TEXT="Counting something"/>
+</node>
+<node CREATED="1406117885263" ID="ID_1385836754" MODIFIED="1406117888845" TEXT="Continuous">
+<node CREATED="1406117890456" ID="ID_276670365" MODIFIED="1406117898351" TEXT="Measuring something"/>
+</node>
+</node>
 </node>
 <node CREATED="1405160185839" ID="ID_1699208658" MODIFIED="1405160190591" POSITION="right" TEXT="Variables">
 <node CREATED="1405160192199" ID="ID_447600841" MODIFIED="1405160199431" TEXT="Quantitative Variable">
@@ -153,8 +170,7 @@
       Property&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Nominal Ordinal Interval Ratio<br />Order of data is meaningful&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y<br />Difference between data is meaningful&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;Y<br />Zero point represents total absense&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;N&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Y
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1405161385666" ID="ID_1896816765" MODIFIED="1405161388880" TEXT="Raw Data">
 <node CREATED="1405161390328" ID="ID_1212349517" MODIFIED="1405161412462" TEXT="Data recorded in the sequence in which they are collected and before they are porcessed or ranked."/>
 </node>
@@ -233,6 +249,7 @@
 <node CREATED="1405097371193" ID="ID_916671122" MODIFIED="1405097380809" TEXT="Count the number of data values in each class."/>
 <node CREATED="1405097385210" ID="ID_1514896335" MODIFIED="1405100817435" TEXT="Summarize the class frequencies in a Frequency Distribution Table, also known as a Histogram"/>
 </node>
+<node CREATED="1406117587624" ID="ID_586245661" MODIFIED="1406117607476" POSITION="right" TEXT="Probability Distribution"/>
 <node CREATED="1405100753107" ID="ID_868228453" MODIFIED="1405100758745" POSITION="right" TEXT="Histogram">
 <node CREATED="1405161536447" ID="ID_805585379" MODIFIED="1405161567153" TEXT="Classes are marked on the horizontal axis and frequencies or percentages are marked on the vertical axis."/>
 <node CREATED="1405107080554" ID="ID_1818989229" MODIFIED="1405107154122" TEXT="The top of the vertical axis should be close to the highest value in the data"/>
@@ -286,8 +303,7 @@
       &#160;&#160;&#160;&#160; <u>&#160;&#160;&#160;P </u><br />n * 100<br />So, the 35 percentile of 50 data elements is:<br />50 * .35 = 17.5
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1405968850975" ID="ID_1914387847" MODIFIED="1405968883923" TEXT="Rule #1: if percentile is not a counting number, round up to find the position in ordered data."/>
 <node CREATED="1405968884618" ID="ID_851746177" MODIFIED="1405968919844" TEXT="Rule #2: if percentile IS a counting number, take the average of the number at this location, and the next higher location in ordered data."/>
@@ -308,8 +324,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <u>&#160; &#160;</u><br />z = <u>&#160;&#160;&#160;x - x&#160; </u><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -337,8 +352,7 @@
       s = Standard Deviation
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -375,8 +389,7 @@
       For any data set:<br />1. At least 75% of the data values lie between -2 and +2 standard deviations from the mean<br />2. At least 89% lie between -3 and +3 standard deviations from the mean<br />3. In general, at least (1 - 1/k^2) X 100% of your data values lie between k standard deviations above and below the mean for any value of k &gt; 1
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1405969963137" ID="ID_29608850" MODIFIED="1405969969081" POSITION="right" TEXT="Empirical Rule">
@@ -401,8 +414,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1405161236485" ID="ID_446952770" MODIFIED="1405161239687" POSITION="right" TEXT="Notation">
@@ -411,6 +423,11 @@
 <font NAME="Symbol" SIZE="12"/>
 <node CREATED="1405161321054" ID="ID_1405891563" MODIFIED="1405161328888" TEXT="The sum of all values"/>
 </node>
+</node>
+<node CREATED="1406118075725" ID="ID_449533011" MODIFIED="1406118080906" TEXT="P(A)">
+<node CREATED="1406118082023" ID="ID_303771159" MODIFIED="1406118095123" TEXT="Probability that event (A) occurs"/>
+<node CREATED="1406118113768" ID="ID_1431152399" MODIFIED="1406118207936" TEXT="P(A) = m/n where m is the number of times that an event occured, and n is the number of possible outcomes"/>
+<node CREATED="1406118244580" ID="ID_1607995942" MODIFIED="1406118265537" TEXT="This definition assumes that all n possible outcomes have an equal chance of occuring"/>
 </node>
 </node>
 </node>
